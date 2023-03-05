@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(./demo/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container_card{
+    width: 420px;
+    height:640px ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    overflow: hidden;
+}
+.container_card-img{
+    width: 100%;
+}
+
+.conatiner_card-2 > h1{
+font-size: 30px;
+font-weight: 900;
+color: hsl(223, 47%, 23%);
+text-align: center;
+
+}
+
+.conatiner_card-2 > h2{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+
+}
+.container_plan{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 16px;
+}
+    
+.container_plan_anual{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+}
+.container_button{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.button_primary{
+    background-color: hsl(245, 75%, 52%);
+    padding: 18px;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px hsla(245,75%,52%,0.4);
+
+}
+.butoon_secundary{
+    background-color: transparent;
+    padding: 18px;
+    border: 0;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.conatiner_card-2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px;
+}
+.container_plan_anual h4{
+    color: hsl(224, 23%, 55%);
+}
+.container_plan_anual h3
+{
+    font-weight: 900;
+    font-size: 18px;
+    color: hsl(223, 47%, 23%);
+}
+.container_button button
+{
+    font-weight: 700
+    ;
+}
